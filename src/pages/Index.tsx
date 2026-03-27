@@ -125,8 +125,8 @@ export default function Index() {
       {/* HERO */}
       <div id="hero" className="relative min-h-screen flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src={HERO_IMG} alt="Hero" className="w-full h-full object-cover" style={{ filter: "brightness(0.25)" }} />
-          <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(10,13,18,0.9) 0%, rgba(27,67,112,0.3) 100%)" }} />
+          <img src="https://cdn.poehali.dev/projects/d04ca6d4-8f87-404a-9c40-32599fd747b5/bucket/f6eaa042-739b-423e-9313-878156cd149e.png" alt="Hero" className="w-full h-full object-cover" style={{ filter: "brightness(0.6)" }} />
+          <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(10,13,18,0.75) 0%, rgba(80,30,10,0.25) 100%)" }} />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 pt-24">
           <div className="max-w-2xl animate-fade-up opacity-0" style={{ animationFillMode: "forwards", animationDelay: "0.2s" }}>
