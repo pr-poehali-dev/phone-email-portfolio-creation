@@ -325,8 +325,8 @@ export default function Index() {
                 {[
                   { icon: "Phone", label: "Телефон", value: "+7 (922) 298-59-54", href: "tel:+79222985954" },
                   { icon: "Mail", label: "Email", value: "successful-lucky@yandex.ru", href: "mailto:successful-lucky@yandex.ru" },
-                  { icon: "MapPin", label: "Адрес", value: "г. Москва, ул. Деловая, 1", href: undefined },
-                  { icon: "Clock", label: "Режим работы", value: "Пн–Пт: 9:00–18:00", href: undefined },
+                  { icon: "MapPin", label: "Адрес", value: "г. Екатеринбург", href: undefined },
+                  { icon: "Clock", label: "Время труда", value: "09:00 – 17:00", href: undefined },
                 ].map(c => (
                   <div key={c.icon} className="flex items-start gap-4">
                     <div className="w-10 h-10 flex items-center justify-center flex-shrink-0" style={{ backgroundColor: "#111520", border: "1px solid #1a2030" }}>
