@@ -146,6 +146,11 @@ export default function Index() {
                 style={{ borderColor: "rgba(255,255,255,0.3)", color: "#fff", borderRadius: "2px" }}>
                 Связаться
               </a>
+              <a href="https://yoomoney.ru/to/410017253212598/0" target="_blank" rel="noopener noreferrer"
+                className="px-8 py-3 font-body font-medium text-sm tracking-wider transition-all hover:opacity-90"
+                style={{ backgroundColor: "#C05621", color: "#fff", borderRadius: "2px" }}>
+                Монѣтопоток
+              </a>
             </div>
           </div>
           <div className="absolute bottom-12 right-6 md:right-16 flex flex-col items-end gap-6">
