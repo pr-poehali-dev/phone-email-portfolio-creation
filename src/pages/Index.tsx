@@ -323,10 +323,10 @@ export default function Index() {
             <div>
               <div className="space-y-8 mb-12">
                 {[
-                  { icon: "Phone", label: "Телефон", value: "+7 (922) 298-59-54" },
-                  { icon: "Mail", label: "Email", value: "successful-lucky@yandex.ru" },
-                  { icon: "MapPin", label: "Адрес", value: "г. Москва, ул. Деловая, 1" },
-                  { icon: "Clock", label: "Режим работы", value: "Пн–Пт: 9:00–18:00" },
+                  { icon: "Phone", label: "Телефон", value: "+7 (922) 298-59-54", href: "tel:+79222985954" },
+                  { icon: "Mail", label: "Email", value: "successful-lucky@yandex.ru", href: "mailto:successful-lucky@yandex.ru" },
+                  { icon: "MapPin", label: "Адрес", value: "г. Москва, ул. Деловая, 1", href: undefined },
+                  { icon: "Clock", label: "Режим работы", value: "Пн–Пт: 9:00–18:00", href: undefined },
                 ].map(c => (
                   <div key={c.icon} className="flex items-start gap-4">
                     <div className="w-10 h-10 flex items-center justify-center flex-shrink-0" style={{ backgroundColor: "#111520", border: "1px solid #1a2030" }}>
@@ -334,7 +334,11 @@ export default function Index() {
                     </div>
                     <div>
                       <p className="font-body text-xs text-gray-600 uppercase tracking-widest mb-1">{c.label}</p>
-                      <p className="font-body text-white">{c.value}</p>
+                      {c.href ? (
+                        <a href={c.href} className="font-body text-white hover:text-blue-400 transition-colors">{c.value}</a>
+                      ) : (
+                        <p className="font-body text-white">{c.value}</p>
+                      )}
                     </div>
                   </div>
                 ))}
