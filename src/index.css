@@ -13,32 +13,32 @@
     --popover: 20 8% 9%;
     --popover-foreground: 40 20% 92%;
 
-    --primary: 42 65% 52%;
-    --primary-foreground: 20 10% 6%;
+    --primary: 213 80% 52%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 20 8% 14%;
-    --secondary-foreground: 40 20% 80%;
+    --secondary: 215 20% 14%;
+    --secondary-foreground: 210 20% 80%;
 
-    --muted: 20 8% 14%;
-    --muted-foreground: 40 10% 55%;
+    --muted: 215 20% 14%;
+    --muted-foreground: 210 15% 55%;
 
-    --accent: 42 65% 52%;
-    --accent-foreground: 20 10% 6%;
+    --accent: 213 80% 52%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 40%;
     --destructive-foreground: 40 20% 92%;
 
-    --border: 20 8% 18%;
-    --input: 20 8% 18%;
-    --ring: 42 65% 52%;
+    --border: 215 15% 18%;
+    --input: 215 15% 18%;
+    --ring: 213 80% 52%;
 
     --radius: 0.25rem;
 
-    --gold: #c9a84c;
-    --gold-light: #e8c87a;
-    --charcoal: #0f0e0c;
-    --charcoal-mid: #1a1815;
-    --charcoal-light: #252220;
+    --gold: #2b6cb0;
+    --gold-light: #4299e1;
+    --charcoal: #0a0d12;
+    --charcoal-mid: #111520;
+    --charcoal-light: #1a2030;
   }
 }
 
@@ -73,7 +73,7 @@
     font-family: "IBM Plex Sans", sans-serif;
   }
   .text-gold {
-    color: var(--gold);
+    color: var(--gold-light);
   }
   .bg-gold {
     background-color: var(--gold);
@@ -153,13 +153,13 @@
   opacity: 0;
 }
 
-/* Gold divider line */
+/* Blue divider line */
 .gold-line::after {
   content: "";
   display: block;
   width: 60px;
   height: 2px;
-  background-color: var(--gold);
+  background-color: var(--gold-light);
   margin-top: 16px;
 }
 
@@ -175,7 +175,7 @@
   left: 0;
   width: 0;
   height: 1px;
-  background-color: var(--gold);
+  background-color: var(--gold-light);
   transition: width 0.3s ease;
 }
 .nav-link:hover::after {
@@ -201,6 +201,6 @@
   background: var(--charcoal);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--gold);
+  background: var(--gold-light);
   border-radius: 3px;
 }
