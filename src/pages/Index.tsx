@@ -323,8 +323,8 @@ export default function Index() {
             <div>
               <div className="space-y-8 mb-12">
                 {[
-                  { icon: "Phone", label: "Телефон", value: "+7 (999) 123-45-67" },
-                  { icon: "Mail", label: "Email", value: "info@company.ru" },
+                  { icon: "Phone", label: "Телефон", value: "+7 (922) 298-59-54" },
+                  { icon: "Mail", label: "Email", value: "successful-lucky@yandex.ru" },
                   { icon: "MapPin", label: "Адрес", value: "г. Москва, ул. Деловая, 1" },
                   { icon: "Clock", label: "Режим работы", value: "Пн–Пт: 9:00–18:00" },
                 ].map(c => (
